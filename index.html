@@ -320,6 +320,26 @@
       line-height: 1.7;
       color: #6e5a51;
     }
+.get-directions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: var(--gold);
+  color: #3d281f;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.get-directions:hover {
+  background: var(--brown);
+  color: white;
+  transform: translateY(-3px);
+}
 
     .venue-link {
       display: inline-block;
@@ -704,21 +724,26 @@
           </p>
         </div>
 
-        <div class="detail-card">
-          <div class="detail-icon">⌖</div>
-          <h3>Venue</h3>
-          <p><a 
-  href="https://maps.app.goo.gl/7two2UQyUuPgfrQMA"
-  target="_blank" 
-  rel="noopener noreferrer" 
-  class="venue-link"
-  aria-label="Open Trinity Methodist Church, La, Ghana in Google Maps"
->
-  <strong>Trinity Methodist Church, La</strong><br>
-  Near Kingdom Hall of Jehovah's Witnesses,<br>
-  La, Accra, Ghana<br>
+         <div class="detail-card">
+         <div class="detail-icon">⌖</div>
+         <h3>Venue</h3>
 
-  <span>📍 Open in Google Maps</span>
+  <p>
+    <strong>Trinity Methodist Church, La</strong><br>
+    Near Kingdom Hall of Jehovah's Witnesses,<br>
+    La, Accra, Ghana<br>
+
+    <a 
+      href="https://maps.app.goo.gl/7two2UQyUuPgfrQMA"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="get-directions"
+      aria-label="Get directions to Trinity Methodist Church, La, Ghana"
+    >
+      📍 Get Directions
+    </a>
+  </p>
+</div>
 </a>
           </p>
         </div>
