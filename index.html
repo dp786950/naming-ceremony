@@ -320,35 +320,6 @@
       line-height: 1.7;
       color: #6e5a51;
     }
-    .directions-button {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: 8px;
-margin-top: 20px;
-padding: 13px 22px;
-border-radius: 50px;
-background: var(--gold);
-color: #3d281f;
-font-size: .85rem;
-font-weight: 700;
-letter-spacing: .3px;
-text-decoration: none;
-box-shadow: 0 8px 20px rgba(195, 154, 85, .20);
-transition: all .3s ease;
-}
-
-.directions-button:hover {
-transform: translateY(-3px);
-background: var(--brown);
-color: white;
-box-shadow: 0 12px 25px rgba(64, 37, 31, .20);
-}
-
-.directions-button:active {
-transform: translateY(0);
-}
-
 
     .venue-link {
       display: inline-block;
@@ -737,11 +708,9 @@ transform: translateY(0);
           <div class="detail-icon">⌖</div>
           <h3>Venue</h3>
           <p><a 
-  href="href="https://maps.app.goo.gl/7two2UQyUuPgfrQMA"
+  href="https://maps.app.goo.gl/7two2UQyUuPgfrQMA"
   target="_blank" 
-  rel="noopener noreferrer"
-  class="directions-button"
-aria-label="Get directions to Trinity Methodist Church, La"
+  rel="noopener noreferrer" 
   class="venue-link"
   aria-label="Open Trinity Methodist Church, La, Ghana in Google Maps"
 >
@@ -749,11 +718,7 @@ aria-label="Get directions to Trinity Methodist Church, La"
   Near Kingdom Hall of Jehovah's Witnesses,<br>
   La, Accra, Ghana<br>
 
-  Get Directions
-
-  </a>
-</div>
-
+  <span>📍 Open in Google Maps</span>
 </a>
           </p>
         </div>
